@@ -15,3 +15,21 @@ I have use C++ for faster execution which saves time .Error handling is also kep
 
 Another line of thought which I was thinking was about using Binary search for the dates which would take down the current complexity from O(n) to O(logn)
 But given the time constraint i was able to come up with this solution.
+
+Steps to run the project:
+
+1)download or clone the repository containing the code.
+Example command to clone the repository:
+git clone https://github.com/Aaryan-Sinha/tech-campus-recruitment-2025
+cd tech-campus-recruitment-2025
+
+2)Compile the C++ Code: Compile the extract_logs.cpp file using your C++ compiler. If you're using g++, the command would look like this:
+g++ -std=c++17 -o extract_logs extract_logs.cpp
+
+3)Prepare the Log File: Ensure that the log file (test_logs.log) is available in the same directory or provide the full path to it when running the program.
+download it from the curl command given in the readme file
+
+4)Run the Program: Once the program is compiled, run the following command in your terminal:
+./extract_logs test_logs.log 2024-12-01
+
+5)Check Output: After the program runs, you will find the extracted logs in the output/output_YYYY-MM-DD.txt file. The program will also display the number of lines processed and the time taken for the extraction.
